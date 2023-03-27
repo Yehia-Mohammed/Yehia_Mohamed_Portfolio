@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.div1 ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.div1 ul li{
+    display: inline-block;
+    padding: 40px 15px;
+}
+.div1 ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.div1 ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.BD{
+    position: relative;
+    background: linear-gradient(to right, #159957, #155799);
+    width: 100%;
+    height: 730px;
+}
+.H1{
+    position: absolute;
+    color: aqua;
+    width: 720px;
+    top: 96px;
+    left: 622px;
+}
+.BD .Grid{
+    height: 700;
+    width: 100%;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    align-content:space-around;
+}
+.Grid div{
+    text-align: center;
+    height: 220px;
+    width: 180px;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}

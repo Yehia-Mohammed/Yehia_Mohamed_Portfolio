@@ -1,0 +1,78 @@
+.H{
+    background-color: blueviolet;
+    width: 100%;
+    float: left;
+    color: white;
+
+}
+.H1{
+    float: left;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+.H2{
+    float: left;
+    padding: 5px 10px;
+}
+.H3{
+    float: left;
+    padding: 5px 10px;
+
+}
+.H4{
+    float: left;
+    padding: 5px 10px;
+
+}
+.P1{
+    width: 25%;
+    float: left;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.P2{
+    width: 25%;
+    float: left;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.P3{
+    width: 25%;
+    float: left;
+    background-color: blueviolet;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+}
+.Ph1{
+    margin: 20px;
+    float: left;
+    opacity: 0.5;
+}
+.Ph2{
+    margin: 20px;
+    float: left;
+}
+.Ph3{
+    margin: 20px;
+    float: left;
+    filter: blur(5px);
+}
+.Ph3:hover{
+    filter: blur(0px);
+}
+.Ph2:hover{
+    zoom: 150%;
+}
+.Ph1:hover{
+    box-shadow: 3px 3px 8px 20px #04fa35;
+    border-radius: 30px;
+}
+
